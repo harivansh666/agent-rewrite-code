@@ -74,4 +74,5 @@ export const createTodo = tool(
 
 export const myTools = [wikiTool, createQuiz, createTodo];
 
+
 const modelWithTools = model.bindTools(tools);
